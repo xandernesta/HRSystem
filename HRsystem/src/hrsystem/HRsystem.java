@@ -13,13 +13,13 @@ import java.util.LinkedList;
  */
 public class HRsystem {
     
-    private static LinkedList<Job> jobslist = new LinkedList<Job>();
-    private static LinkedList<Applicant> applicantlist = new LinkedList<Applicant>();
-    private static LinkedList<Interview> interviewlist = new LinkedList<Interview>();
+    private static LinkedList<Job> jobsList = new LinkedList<Job>();
+    private static LinkedList<Applicant> applicantsList = new LinkedList<Applicant>();
+    private static LinkedList<Interview> interviewsList = new LinkedList<Interview>();
     
-    public static LinkedList<Job> getJobslist() { return jobslist; }
-     public static LinkedList<Applicant> getApplicantlist() { return applicantlist; }
-      public static LinkedList<Interview> getInterviewlist() { return interviewlist; }
+    public static LinkedList<Job> getJobsList() { return jobsList; }
+     public static LinkedList<Applicant> getApplicantsList() { return applicantsList; }
+      public static LinkedList<Interview> getInterviewsList() { return interviewsList; }
      
      
     
