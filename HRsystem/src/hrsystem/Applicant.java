@@ -93,10 +93,21 @@ public class Applicant {
         totalScore = score;
     }
     
-//    public void applyJob(Job job){
-//        if (jobs.size()<2)
-//        jobs.add(job);
-//        
-//    }
+//allows Applicant to apply to jobs by updating the applicant's jobs linkedlist
+    public void setJobs(Job job){
+    boolean exists = false;
+    for(int i = 0; i<jobs.size(); i++){
+       if (jobs.get(i).equals(job))
+           exists = true;
+       System.out.print("You already applied to this job.");
+    }
+        if (jobs.size()<3 && exists==false){
+        jobs.add(job);
+        }
+        
+        else{
+        System.out.print("You have already applied to the maximum 3 jobs."); 
+        }
+    }
     
 }
